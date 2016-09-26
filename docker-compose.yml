@@ -3,6 +3,6 @@ web:
   links:
     - redis
   ports:
-    - ":80"
+    - "80:80"
 redis:
   image: redis
